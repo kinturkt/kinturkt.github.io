@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
   // Add base URL for GitHub Pages
-  base: "/kinturkt.github.io/",
+  base: "/",
 }));
