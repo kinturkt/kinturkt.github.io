@@ -3,6 +3,15 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
+import movieImg from "@/assets/movie.jpg";
+import thesisImg from "@/assets/thesis.png";
+import hateImg from "@/assets/hate.png";
+import imsImg from "@/assets/ims.jpg";
+import bankImg from "@/assets/bank.jpg";
+import cacheImg from "@/assets/cache.png";
+import davImg from "@/assets/dav.jpg";
+import dashImg from "@/assets/dash.jpg";
+
 interface Project {
   id: number;
   title: string;
@@ -18,7 +27,7 @@ const projects: Project[] = [
     id: 1,
     title: "Movie Recommendation System",
     description: "An NLP-based movie recommender using Sentence Transformers and cosine similarity, deployed via Streamlit.",
-    image: "./src/assets/movie.jpg",
+    image: movieImg,
     tags: ["Python", "NLP", "Streamlit", "HuggingFace", "Sentence Transformers"],
     githubUrl: "https://github.com/kinturkt/MovieFindr",
   },
@@ -26,7 +35,7 @@ const projects: Project[] = [
     id: 2,
     title: "Digital Thesis Repository",
     description: "Centralized system for academic thesis management with RBAC, real-time chat, and WordPress blogs.",
-    image: "./src/assets/thesis.png",
+    image: thesisImg,
     tags: ["Next.js", "React", "MySQL", "API", "HTML", "CSS", "WordPress", "Cloud"],
     liveUrl: "https://sxb3349.uta.cloud/",
     githubUrl: "https://github.com/kinturkt/ScholarVault",
@@ -35,7 +44,7 @@ const projects: Project[] = [
     id: 3,
     title: "Hate Speech Detection",
     description: "Built BERT and LSTM-based hate speech classifier with 93% accuracy using NLP and deep learning.",
-    image: "./src/assets/hate.png",
+    image: hateImg,
     tags: ["Python", "TensorFlow", "Keras", "BERT", "LSTM", "NLP"],
     githubUrl: "https://github.com/kinturkt/HateScan",
   },
@@ -43,7 +52,7 @@ const projects: Project[] = [
     id: 4,
     title: "Inventory Management System",
     description: "Flask-based system to manage inventory, products, and transactions with real-time updates.",
-    image: "./src/assets/ims.jpg",
+    image: imsImg,
     tags: ["Python", "Flask", "SQLite", "JSON"],
     githubUrl: "https://github.com/kinturkt/Inventory-Management-System-IMS-Project",
   },
@@ -51,7 +60,7 @@ const projects: Project[] = [
     id: 5,
     title: "Banking System using SQL and Python",
     description: "CLI-based banking app to manage accounts, transactions, and loans with optimized SQL queries.",
-    image: "./src/assets/bank.jpg",
+    image: bankImg,
     tags: ["Python", "Azure MySQL", "CLI"],
     githubUrl: "https://github.com/kinturkt/BankFusion",
   },
@@ -59,7 +68,7 @@ const projects: Project[] = [
     id: 6,
     title: "DBCacheOptimizer",
     description: "Azure-hosted system optimizing SQL queries with Redis caching and performance dashboard.",
-    image: "./src/assets/cache.png",
+    image: cacheImg,
     tags: ["Azure SQL", "Redis", "MS Azure", "HTML", "CSS", "Flask"],
     githubUrl: "https://github.com/kinturkt/DBCacheOptimizer",
   },
@@ -67,7 +76,7 @@ const projects: Project[] = [
     id: 7,
     title: "Zomato Restaurant Data Analysis and Visualization",
     description: "Analyzed Zomato restaurant dataset for insights and visualized data trends using Python, Pandas, and Matplotlib.",
-    image: "./src/assets/dav.jpg",
+    image: davImg,
     tags: ["Python", "Pandas", "Matplotlib", "Data Analysis", "Data Visualization", "Jupyter Notebook", "Power BI"],
     githubUrl: "https://github.com/kinturkt/ZomatoViz"
   },
@@ -75,7 +84,7 @@ const projects: Project[] = [
     id: 8,
     title: "Amazon Prime Dashboard using Streamlit",
     description: "Developed an interactive dashboard for analyzing Amazon Prime data using Streamlit, showcasing key statistics and trends.",
-    image: "./src/assets/dash.jpg",
+    image: dashImg,
     tags: ["Streamlit", "Python", "Data Visualization", "Pandas", "Matplotlib", "Amazon Prime"],
     githubUrl: "https://github.com/kinturkt/Amazon-Prime-Dashboard-using-Streamlit"
   }
