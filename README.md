@@ -2,4 +2,4 @@
 
 ## Project info
 
-**URL**: [https://kinturkt.github.io/](url)
+**URL**: [(https://kinturkt-github-io.vercel.app/)](url)
