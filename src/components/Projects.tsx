@@ -11,6 +11,7 @@ import bankImg from "@/assets/bank.jpg";
 import cacheImg from "@/assets/cache.png";
 import davImg from "@/assets/dav.jpg";
 import dashImg from "@/assets/dash.jpg";
+import bbImg from "@/assets/bb.jpg";
 
 interface Project {
   id: number;
@@ -58,6 +59,15 @@ const projects: Project[] = [
   },
   {
     id: 5,
+    title: "Blood Bank and Donation Management System",
+    description: "PHP-based system to manage blood groups, donors and users.",
+    image: bbImg,
+    tags: ["HTML", "CSS", "PHP", "MySQL"],
+    githubUrl: "https://github.com/kinturkt/Blood-Bank-and-Donation-Management-System",
+  },
+
+  {
+    id: 6,
     title: "Banking System using SQL and Python",
     description: "CLI-based banking app to manage accounts, transactions, and loans with optimized SQL queries.",
     image: bankImg,
@@ -65,7 +75,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/kinturkt/BankFusion",
   },
   {
-    id: 6,
+    id: 7,
     title: "DBCacheOptimizer",
     description: "Azure-hosted system optimizing SQL queries with Redis caching and performance dashboard.",
     image: cacheImg,
@@ -73,7 +83,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/kinturkt/DBCacheOptimizer",
   },
   {
-    id: 7,
+    id: 8,
     title: "Zomato Restaurant Data Analysis and Visualization",
     description: "Analyzed Zomato restaurant dataset for insights and visualized data trends using Python, Pandas, and Matplotlib.",
     image: davImg,
@@ -81,7 +91,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/kinturkt/ZomatoViz"
   },
   {
-    id: 8,
+    id: 9,
     title: "Amazon Prime Dashboard using Streamlit",
     description: "Developed an interactive dashboard for analyzing Amazon Prime data using Streamlit, showcasing key statistics and trends.",
     image: dashImg,
