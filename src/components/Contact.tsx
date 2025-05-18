@@ -346,7 +346,7 @@ const Contact: React.FC = () => {
             </CardContent>
           </Card>
 
-          <Card
+          {/* <Card
             className="border-none shadow-md animate-slide-up"
             style={{ animationDelay: "200ms" }}
           >
@@ -361,7 +361,7 @@ const Contact: React.FC = () => {
                 Arlington, Texas
               </CardDescription>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
 
         <Card
