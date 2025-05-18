@@ -19,7 +19,7 @@ const eduItems: EduItem[] = [
         title: "Master of Science in Computer Science",
         institution: "The University of Texas at Arlington",
         period: "August 2023 – May 2025",
-        gpa: "3.82",
+        gpa: "3.83",
         description: "Focusing on advanced computing concepts like cloud computing, data science, and machine learning applications. Working on research projects in computational methods and algorithm optimization.",
     },
     {
