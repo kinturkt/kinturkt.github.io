@@ -31,6 +31,7 @@ const projects: Project[] = [
     image: movieImg,
     tags: ["Python", "NLP", "Streamlit", "HuggingFace", "Sentence Transformers"],
     githubUrl: "https://github.com/kinturkt/MovieFindr",
+    liveUrl: "https://huggingface.co/spaces/kinturkt/MovieFindr"
   },
   {
     id: 2,
