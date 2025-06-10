@@ -98,6 +98,7 @@ const projects: Project[] = [
     image: dashImg,
     tags: ["Streamlit", "Python", "Data Visualization", "Pandas", "Matplotlib", "Amazon Prime"],
     githubUrl: "https://github.com/kinturkt/Amazon-Prime-Dashboard-using-Streamlit"
+    liveUrl: "https://amazon-prime-dashboard-by-kt.streamlit.app/"
   }
 ];
 
