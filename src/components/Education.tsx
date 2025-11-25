@@ -82,10 +82,13 @@ const Education: React.FC = () => (
         </h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
+                { title: "Fundamentals of LLMs", issuer: "Hugging Face", year: "2025" },
+                { title: "Databricks Fundamentals", issuer: "Databricks", year: "2025" },
+                { title: "Google Cloud Platform for Machine Learning Essential Training", issuer: "LinkedIn Learning", year: "2025" },
                 { title: "Power BI Essential Training", issuer: "LinkedIn Learning", year: "2025" },
+                { title: "LangChain Fundamentals", issuer: "Analytics Vidhyala", year: "2025" },
                 { title: "JavaScript Intermediate", issuer: "HackerRank", year: "2025" },
                 { title: "Introduction to Generative AI", issuer: "Google Cloud Training", year: "2024" },
-                { title: "Introduction to Front-End Development", issuer: "Meta", year: "2023" },
                 { title: "Python for Data Science, AI & Development Certificate", issuer: "IBM", year: "2023" },
                 { title: "Introduction to Data Analytics", issuer: "IBM", year: "2023" },
                 { title: "Data Science with Python", issuer: "Coursera", year: "2024" },
