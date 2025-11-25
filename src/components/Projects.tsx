@@ -77,7 +77,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "SQLMind – LLM SQL Data Analyst",
+    title: "SQLMind - LLM SQL Data Analyst",
     description:
       "Text to SQL data analyst that converts natural language to SQL, allows CSV uploads, infers schema, and returns both generated SQL and results for transparent analysis.",
     image: sqlImg,
