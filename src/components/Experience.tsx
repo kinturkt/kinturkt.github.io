@@ -86,7 +86,7 @@ const Experience = () => {
       <div className="container-custom">
         <h2 className="section-title text-center">Work Experience</h2>
         <p className="section-subtitle text-center mx-auto">
-          Explore my professional experience across AI, data, and backend engineering—where I’ve applied machine learning, data engineering, and cloud technologies to deliver real-world impact.
+          Explore my professional experience across AI, data, and backend engineering, where I’ve applied machine learning, data engineering, and cloud technologies to deliver real-world impact.
         </p>
 
         <div className="mt-12 space-y-8">
