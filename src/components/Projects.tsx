@@ -18,7 +18,7 @@ import cacheImg from "@/assets/cache.png";
 import dashImg from "@/assets/dash.jpg";
 import sqlImg from "@/assets/sql.png";
 import atsImg from "@/assets/ats.png";
-import financialAssistantImg from "@/assets/finance.jpg";
+import financialAssistantImg from "@/assets/finance.png";
 
 interface Project {
   id: number;
