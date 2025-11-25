@@ -75,7 +75,7 @@ const Education: React.FC = () => (
         ))}
         </div>
 
-      {/* Certifications Section */}
+    {/* Certifications Section */}
     <div className="mt-12">
         <h4 className="text-2xl font-semibold text-portfolio-dark mb-6">
                 Certifications

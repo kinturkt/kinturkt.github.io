@@ -11,27 +11,27 @@ interface FocusArea {
 
 const focusAreas: FocusArea[] = [
   {
-    title: "Full-Stack Development",
+    title: "AI and ML Engineering",
     description:
-      "Building scalable frontend and backend with JavaScript and its libraries, Laraval, and Python",
-    Icon: Code,
-  },
-  {
-    title: "Data Scienct and Visulization",
-    description:
-      "Transforming raw data into insights and interactive dashboards using Python, SQL, D3.js and Power BI",
-    Icon: Database,
-  },
-  {
-    title: "Machine Learning & AI",
-    description:
-      "Designing and deploying models with TensorFlow, PyTorch, and scikit-learn, and exploring large language models (LLMs) to power conversational AI experiences",
+      "Designing and deploying models for recommendation, ranking, and classification using Python, TensorFlow, PyTorch, and scikit-learn, then shipping them as reliable APIs and services.",
     Icon: Cpu,
   },
   {
-    title: "Cloud & DevOps",
+    title: "Data Science and Analytics",
     description:
-      "Managing cloud hosting and databases on Azure, with CI/CD workflows powered by GitHub Actions",
+      "Cleaning and modeling data with SQL, Pandas, and Jupyter Notebook, running experiments, and building dashboards in tools like Power BI to turn noisy data into clear decisions.",
+    Icon: Database,
+  },
+  {
+    title: "LLMs, Agents, and Automation",
+    description:
+      "Building LLM powered systems with OpenAI, Claude, and Gemini, orchestrating flows with LangChain and LangGraph, and wiring automations through n8n, Zapier, and evaluation tools like Opik.",
+    Icon: Code,
+  },
+  {
+    title: "Cloud, MLOps, and Platforms",
+    description:
+      "Running workloads on Azure, AWS, and GCP, using Vertex AI, Bedrock, and SageMaker for training and deployment, and wiring CI/CD, monitoring, and observability around production ML systems.",
     Icon: Cloud,
   },
 ];
@@ -45,26 +45,19 @@ const About: React.FC = () => (
 
       {/* Intro paragraphs */}
       <p className="text-base text-gray-700 leading-relaxed mb-4">
-        I’m a graduate student in Computer Science at UT Arlington, where I focus on
-        software design, data-driven systems, and AI integration. By day I craft
-        full-stack web apps—with React on the front end and PHP/Laravel or Node.js
-        services on the back—and by night I explore machine learning pipelines and
-        NLP workflows.
+        I am a Computer Science graduate student at UT Arlington who enjoys working at the intersection of data, machine learning, and modern cloud platforms. Most of my work focuses on taking real business problems, modeling them with data and ML, and then turning those models into production ready systems.
+      </p>
+
+      <p className="text-base text-gray-700 leading-relaxed mb-4">
+        On the ML and data side, I work with Python, SQL, NumPy, Pandas, scikit-learn, TensorFlow, and PyTorch, usually inside Jupyter Notebook for exploration and experimentation. From there I expose models through FastAPI or Streamlit, connect them to relational databases like PostgreSQL and MySQL, and use dashboards in Power BI or other tools to share insights with non technical stakeholders.
+      </p>
+
+      <p className="text-base text-gray-700 leading-relaxed mb-4">
+        I also spend a lot of time with large language models and agents. I build RAG and agent style workflows using OpenAI, Claude, and Gemini on top of LangChain and LangGraph, with vector databases in the background. For real world automation I plug these systems into n8n and Zapier, and use tools like Opik and logging dashboards to understand how they behave over time.
       </p>
 
       <p className="text-base text-gray-700 leading-relaxed mb-8">
-        My background in Computer Engineering has taught me to write clean, efficient code
-        and to collaborate across teams. Whether I’m optimizing database queries, designing
-        CD/CI pipelines in Azure, or training a recommendation model in PyTorch, I aim
-        to deliver solutions that scale, perform, and delight users.
-      </p>
-
-      <p className="text-base text-gray-700 leading-relaxed mb-8">
-        I’m also delving into the world of Large Language Models (LLMs) and AI agents,
-        experimenting with OpenAI’s API, LangChain, and prompt engineering to build
-        conversational assistants, fine-tune custom models, and seamlessly integrate
-        generative AI capabilities into web applications for smarter, more intuitive
-        user experiences.
+        On the cloud side, I have experience deploying data and ML workloads on Azure, AWS, and GCP, using managed platforms such as Vertex AI, Bedrock, and SageMaker. I care about reliability and observability, so I think in terms of CI and CD, monitoring, and how to keep latency and failure rates in check when these systems are serving live users.
       </p>
 
       {/* Areas of Expertise */}
