@@ -81,19 +81,19 @@ const Contact: React.FC = () => {
       <div className="container-custom">
         <h2 className="section-title text-center">Get In Touch</h2>
         <p className="section-subtitle text-center mx-auto">
-          Have a project in mind or just want to say hello? Feel free to reach
-          out!
+          Have a project in mind or just want to say hello? Feel free to reach out!
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">
-          <Card className="border-none shadow-md animate-slide-up">
-            <CardHeader className="bg-portfolio-primary text-white">
+        {/* Centered Email Card */}
+        <div className="flex justify-center mt-12">
+          <Card className="w-full max-w-sm border-none shadow-md animate-slide-up">
+            <CardHeader className="bg-portfolio-primary text-white rounded-t-md">
               <CardTitle className="flex items-center">
                 <Mail className="mr-2 h-5 w-5" />
                 Email
               </CardTitle>
             </CardHeader>
-            <CardContent className="pt-6">
+            <CardContent className="py-6 px-4">
               <CardDescription className="text-center text-gray-700 text-base">
                 <a
                   href="mailto:shahkintur@gmail.com"
@@ -106,8 +106,9 @@ const Contact: React.FC = () => {
           </Card>
         </div>
 
+        {/* Contact Form */}
         <Card
-          className="mt-12 border-none shadow-lg max-w-3xl mx-auto animate-slide-up"
+          className="mt-10 border-none shadow-lg max-w-3xl mx-auto animate-slide-up"
           style={{ animationDelay: "300ms" }}
         >
           <CardHeader>
@@ -115,8 +116,7 @@ const Contact: React.FC = () => {
               Send a Message
             </CardTitle>
             <CardDescription>
-              Fill out the form below and I'll get back to you as soon as
-              possible.
+              Fill out the form below and I'll get back to you as soon as possible.
             </CardDescription>
           </CardHeader>
           <CardContent>
