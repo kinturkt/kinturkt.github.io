@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Send } from "lucide-react";
 
 interface FormData {
   name: string;
@@ -85,7 +85,7 @@ const Contact: React.FC = () => {
           out!
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">
           <Card className="border-none shadow-md animate-slide-up">
             <CardHeader className="bg-portfolio-primary text-white">
               <CardTitle className="flex items-center">
@@ -104,45 +104,6 @@ const Contact: React.FC = () => {
               </CardDescription>
             </CardContent>
           </Card>
-
-          <Card
-            className="border-none shadow-md animate-slide-up"
-            style={{ animationDelay: "100ms" }}
-          >
-            <CardHeader className="bg-portfolio-secondary text-white">
-              <CardTitle className="flex items-center">
-                <Phone className="mr-2 h-5 w-5" />
-                Phone
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="pt-6">
-              <CardDescription className="text-center text-gray-700 text-base">
-                <a
-                  href="tel:+16823070426"
-                  className="hover:text-portfolio-primary transition-colors"
-                >
-                  +1 (682) 307-0426
-                </a>
-              </CardDescription>
-            </CardContent>
-          </Card>
-
-          {/* <Card
-            className="border-none shadow-md animate-slide-up"
-            style={{ animationDelay: "200ms" }}
-          >
-            <CardHeader className="bg-portfolio-accent text-white">
-              <CardTitle className="flex items-center">
-                <MapPin className="mr-2 h-5 w-5" />
-                Location
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="pt-6">
-              <CardDescription className="text-center text-gray-700 text-base">
-                Arlington, Texas
-              </CardDescription>
-            </CardContent>
-          </Card> */}
         </div>
 
         <Card
@@ -225,9 +186,7 @@ const Contact: React.FC = () => {
                 disabled={isSubmitting}
               >
                 {isSubmitting ? (
-                  <span className="flex items-center">
-                    Sending...
-                  </span>
+                  <span className="flex items-center">Sending...</span>
                 ) : (
                   <span className="flex items-center">
                     Send Message
